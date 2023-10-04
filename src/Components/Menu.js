@@ -14,7 +14,7 @@ function Menu() {
                             </Link>
                         </li>
                         <li className="navbar-toggle">
-                            <Link to="universities" className="menu-bars">
+                            <Link to="/universities" className="menu-bars">
                                 <span>Universities</span>
                             </Link>
                         </li>
