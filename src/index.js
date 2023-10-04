@@ -40,7 +40,7 @@ const router = createBrowserRouter([
     element: <AppLayout />,
     children: [
       {
-        path: "/",
+        path: "*",
         element: <SignUpForm />,
       },
       {
