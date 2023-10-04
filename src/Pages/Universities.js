@@ -10,7 +10,7 @@ export default function Universities() {
         const fetchData = async () => {
             try {
                 const response = await axios.get(
-                    'http://universities.hipolabs.com/search'
+                    'http://universities.hipolabs.com/search?country=United+States'
                 );
 
                 // first 20 records
