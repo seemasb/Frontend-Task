@@ -40,11 +40,11 @@ const router = createBrowserRouter([
     element: <AppLayout />,
     children: [
       {
-        path: "/",
+        path: "https://seemasb.github.io/Frontend-Task/",
         element: <SignUpForm />,
       },
       {
-        path: "universities",
+        path: "https://seemasb.github.io/Frontend-Task/universities",
         element: <Universities />,
       },
     ],
