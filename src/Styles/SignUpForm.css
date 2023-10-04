@@ -1,0 +1,84 @@
+.SignUpForm {
+    width: 30%;
+    margin: auto;
+    background-color: rgb(236, 241, 244);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+    width: 50%;
+    /* background-color: blueviolet; */
+}
+
+.rowAlign {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+    /* column-gap: 90%; */
+    /* justify-content: space-between; */
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.formStyle {
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+}
+
+.inputField {
+    height: 28px;
+    border: 1px solid lightslategray;
+    width: 75%;
+    font-size: 16px;
+}
+
+.formTitle {
+    margin-bottom: 25px;
+    font-size: 17px;
+}
+
+.buttons {
+    /* background-color: aqua; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: right;
+    column-gap: 7px;
+}
+
+button {
+    height: 40px;
+    width: 65px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.saveBtn {
+    background-color: rgb(102, 177, 102);
+    color: white;
+    border: none;
+
+}
+
+.clearBtn {
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+.countryField {
+    height: 35px;
+    border: 1px solid lightslategray;
+    width: 75%;
+    font-size: 16px;
+    background-color: white;
+}

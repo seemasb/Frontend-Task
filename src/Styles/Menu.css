@@ -1,0 +1,18 @@
+.navbar-toggle , .menu-bars{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.nav-menu-items{
+    display: flex;
+    column-gap: 15px;
+}
+
+.navbar-toggle{
+    padding: 10px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
