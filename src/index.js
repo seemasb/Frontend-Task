@@ -29,7 +29,7 @@ import Menu from "./Components/Menu";
 const AppLayout = () => (
   <div>
     <div>
-    <Menu />
+      <Menu />
     </div>
     <Outlet />
   </div>
@@ -40,16 +40,21 @@ const router = createBrowserRouter([
     element: <AppLayout />,
     children: [
       {
-        path: "https://seemasb.github.io/Frontend-Task/",
+        path: "/",
         element: <SignUpForm />,
       },
       {
-        path: "https://seemasb.github.io/Frontend-Task/universities",
+        path: "universities",
         element: <Universities />,
       },
     ],
+
   },
-]);
+],
+  {
+    basename: "/Frontend-Task",
+  }
+);
 
 createRoot(document.getElementById("root")).render(
   <RouterProvider router={router} />
